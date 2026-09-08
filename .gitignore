@@ -1,0 +1,15 @@
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ruby / Jekyll build output (if building locally)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
