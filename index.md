@@ -87,3 +87,28 @@ Senior Research Engineer at Woven by Toyota with experience in both industry and
 ```
 
 </details>
+
+
+**A Runtime Monitoring Framework to Enforce Invariants on Reinforcement Learning Agents Exploring Complex Environments**<br>
+Piergiuseppe Mallozzi, **<u>Ezequiel Castellano</u>**, Patrizio Pelliccione, Gerardo Schneider, Kenji Tei<br>
+*IEEE/ACM 2nd International Workshop on Robotics Software Engineering (RoSE), 2019*<br>
+[[PDF](https://rose-workshops.github.io/files/rose2019/papers/rose2019_2.pdf)] [[Publisher Link](https://doi.org/10.1109/RoSE.2019.00011)]
+
+<details markdown="1"><summary>Abstract & BibTeX</summary>
+
+**Abstract:** Without prior knowledge of the environment, a software agent can learn to achieve a goal using machine learning. Model-free Reinforcement Learning (RL) can be used to make the agent explore the environment and learn to achieve its goal by trial and error. Discovering effective policies to achieve the goal in a complex environment is a major challenge for RL. Furthermore, in safety-critical applications, such as robotics, an unsafe action may cause catastrophic consequences in the agent or in the environment. In this paper, we present an approach that uses runtime monitoring to prevent the reinforcement learning agent to perform "wrong" actions and to exploit prior knowledge to smartly explore the environment. Each monitor is de?ned by a property that we want to enforce to the agent and a context. The monitors are orchestrated by a meta-monitor that activates and deactivates them dynamically according to the context in which the agent is learning. We have evaluated our approach by training the agent in randomly generated learning environments. Our results show that our approach blocks the agent from performing dangerous and safety-critical actions in all the generated environments. Besides, our approach helps the agent to achieve its goal faster by providing feedback and shaping its reward during learning.
+
+```bibtex
+@INPROCEEDINGS{8823721,
+  author={Mallozzi, Piergiuseppe and Castellano, Ezequiel and Pelliccione, Patrizio and Schneider, Gerardo and Tei, Kenji},
+  booktitle={2019 IEEE/ACM 2nd International Workshop on Robotics Software Engineering (RoSE)}, 
+  title={A Runtime Monitoring Framework to Enforce Invariants on Reinforcement Learning Agents Exploring Complex Environments}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={5-12},
+  keywords={Monitoring;Runtime;Safety;Reinforcement learning;Probabilistic logic;Software agents;runtime monitoring;reinforcement learning;reward shaping;LTL invariants},
+  doi={10.1109/RoSE.2019.00011}}
+```
+
+</details>
