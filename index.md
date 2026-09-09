@@ -61,3 +61,29 @@ Senior Research Engineer at Woven by Toyota with experience in both industry and
 ```
 
 </details>
+
+### 2019
+
+**Minimising makespan of discrete controllers: A qualitative approach**<br>
+**<u>Ezequiel Castellano</u>**, Victor Braberman, Nicolás D’Ippolito, Sebastián Uchitel, Kenji Tei<br>
+*IEEE 58th Conference on Decision and Control (CDC), 2019*<br>
+[[PDF](/assets/pdfs/CDC2019_MinimisingMakespan.pdf)] [[Publisher Link](https://doi.org/10.1109/CDC40024.2019.9029766)]
+
+<details markdown="1"><summary>Abstract & BibTeX</summary>
+
+**Abstract:** Qualitative controller synthesis techniques produce controllers that guarantee to achieve a given goal in the presence of an adversarial environment. However, qualitative synthesis only produces one controller out of many possible solutions and typically does not provide support for expressing preferences over other alternatives. In this paper, we thus present a formal approach to reason about preferences qualitatively, restricting attention to makespan of discrete event-based controllers for reachability goals. Time is reasoned upon symbolically, which relieves the user from providing concrete quantitative measures. In particular, we study the scenario in which durations of individual activities are not known up-front. We first show how controllers can be symbolically and fairly compared by fixing the contingencies. Then, we present an algorithm to produce controllers that are makespan-minimising.
+
+```bibtex
+@INPROCEEDINGS{9029766,
+  author={Castellano, Ezequiel and Braberman, Victor and D’Ippolito, Nicolás and Uchitel, Sebastián and Tei, Kenji},
+  booktitle={2019 IEEE 58th Conference on Decision and Control (CDC)}, 
+  title={Minimising Makespan of Discrete Controllers: A Qualitative Approach}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={1068-1075},
+  keywords={Safety;Standards;Law;Production;Planning;Computational modeling},
+  doi={10.1109/CDC40024.2019.9029766}}
+```
+
+</details>
